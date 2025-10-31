@@ -20,8 +20,6 @@ export default function Services() {
   }, []);
   return (
     <section id="Services">
-
-
       <div id="box-container">
 
         <div className='box'>

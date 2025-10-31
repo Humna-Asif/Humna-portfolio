@@ -27,7 +27,7 @@ main {
   width: 100%;
   height: auto;
   color: #222831;
-  background-color: rgb(228, 228, 228);
+  background-color: #E6E5E5;
 }
 
 /* .line-split {
@@ -357,10 +357,13 @@ height: 80%;
   justify-content: center;
   overflow: hidden;
   padding: 0 2rem;
-  background-image: url("/S-bg-2.png");
-  background-position: center 100%;
-  background-size: contain;
+  background-image: url("/s-bg-2.png");
+  background-position: center ;
+  background-size: cover;
+ 
+
 }
+
 
 /* ==== HEADING UNDERLAY ==== */
 #services-heading {
@@ -403,9 +406,9 @@ height: 80%;
   justify-content: center;
   border-radius: 1rem;
   border: 1px solid rgba(207, 206, 206, 0.283);
-  background: rgba(0, 0, 0, 0.061);
-  backdrop-filter: blur(25px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.134);
+  background: rgba(0, 0, 0, 0.187);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.174);
   overflow: hidden;
   transition: all 0.4s ease;
   cursor: pointer;
@@ -415,7 +418,7 @@ height: 80%;
 .box:hover {
   transform: translateY(-8px) scale(1.02);
   backdrop-filter: blur(25px);
-  background: rgba(246, 246, 246, 0.326);
+  background: rgba(0, 0, 0, 0.105);
 }
 
 /* ==== NUMBER BEHIND EACH BOX ==== */
@@ -552,7 +555,6 @@ height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   overflow: hidden;
   cursor: pointer;
   flex-shrink: 0;
@@ -561,21 +563,29 @@ height: 80%;
 .project {
   width: 21vw;
   height: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-big {
   width: 26vw;
   height: 35vw;
 }
+.project a,
+.project-big a {
+  display: block;
+  width: 75%;  /* image container smaller than box */
+  height: 80%;
+}
 
 .project img,
 .project-big img {
-  width: 75%;
-  height: 78%;
-  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
   transition: transform 0.6s ease;
-  /* filter: brightness(0.9); */
 }
 
 .project:hover img,
