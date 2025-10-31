@@ -36,7 +36,7 @@ const Work = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/Project-1.png" alt="Kanno-LandingPage" />
+            <img src="/kanno.png" alt="Kanno-LandingPage" />
 
           </a>
 

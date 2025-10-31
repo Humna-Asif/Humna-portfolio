@@ -13,7 +13,7 @@ const Home = () => {
   const imageArray = [
     "https://i.pinimg.com/1200x/60/df/b0/60dfb0a6cf9caf8dac8ba755684ab9b1.jpg",
     "https://i.pinimg.com/736x/7c/4f/81/7c4f81eae8bb4b3993cfb5d5e1b3ec9b.jpg",
-    "/Project-1.png",
+    "/kanno.png",
     "https://i.pinimg.com/1200x/06/b9/82/06b982f32d1eb2dd7bb5c780ba09918b.jpg",
     "https://i.pinimg.com/1200x/46/41/06/4641064a003ff4caa1555ee12920d650.jpg",
     "https://i.pinimg.com/736x/9e/b4/df/9eb4df90769b3301e4b6bda885a6b92a.jpg",
